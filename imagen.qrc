@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>imagen Estradistia/01 tiendad.jpg</file>
+        <file>imagen Estradistia/abrir-correo.png</file>
+        <file>imagen Estradistia/agregar-archivo.png</file>
+        <file>imagen Estradistia/analitica.png</file>
+        <file>imagen Estradistia/b.jpeg</file>
+        <file>imagen Estradistia/bv.jpeg</file>
+        <file>imagen Estradistia/calculadora.png</file>
+        <file>imagen Estradistia/cerrar-sesion.png</file>
+        <file>imagen Estradistia/d.jpeg</file>
+        <file>imagen Estradistia/e365c820ca6c7feb70b6b475a76be3e3.jpg</file>
+        <file>imagen Estradistia/escoba.png</file>
+        <file>imagen Estradistia/factura.png</file>
+        <file>imagen Estradistia/fe.jpeg</file>
+        <file>imagen Estradistia/gf.jpeg</file>
+        <file>imagen Estradistia/gr.jpeg</file>
+        <file>imagen Estradistia/h.jpeg</file>
+        <file>imagen Estradistia/hf.jpeg</file>
+        <file>imagen Estradistia/hh.jpeg</file>
+        <file>imagen Estradistia/j.jpeg</file>
+        <file>imagen Estradistia/k.jpeg</file>
+        <file>imagen Estradistia/kj.jpeg</file>
+        <file>imagen Estradistia/l.jpeg</file>
+        <file>imagen Estradistia/light-blue-cool-vector-low-poly-crystal-background-png_66033.jpg</file>
+        <file>imagen Estradistia/ll.jpeg</file>
+        <file>imagen Estradistia/n.jpeg</file>
+        <file>imagen Estradistia/ñ.jpeg</file>
+        <file>imagen Estradistia/o.jpeg</file>
+        <file>imagen Estradistia/p.jpeg</file>
+        <file>imagen Estradistia/q.jpeg</file>
+        <file>imagen Estradistia/r.jpeg</file>
+        <file>imagen Estradistia/s.jpeg</file>
+        <file>imagen Estradistia/sa.jpeg</file>
+        <file>imagen Estradistia/salvar.png</file>
+        <file>imagen Estradistia/t.jpeg</file>
+        <file>imagen Estradistia/tienda.png</file>
+        <file>imagen Estradistia/ty.jpeg</file>
+        <file>imagen Estradistia/u.jpeg</file>
+        <file>imagen Estradistia/uy.jpeg</file>
+        <file>imagen Estradistia/venta.png</file>
+        <file>imagen Estradistia/wq.jpeg</file>
+        <file>imagen Estradistia/x.jpeg</file>
+        <file>imagen Estradistia/y.jpeg</file>
+        <file>imagen Estradistia/z.jpeg</file>
+    </qresource>
+</RCC>

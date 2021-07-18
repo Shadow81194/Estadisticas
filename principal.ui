@@ -7,11 +7,19 @@
     <x>0</x>
     <y>0</y>
     <width>664</width>
-    <height>630</height>
+    <height>579</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Principal</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="imagen.qrc">
+    <normaloff>:/new/prefix1/imagen Estradistia/analitica.png</normaloff>:/new/prefix1/imagen Estradistia/analitica.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">alternate-background-color: qlineargradient(spread:reflect, x1:1, y1:0.943, x2:1, y2:0.0683636, stop:0.393258 rgba(82, 52, 145, 153), stop:0.606742 rgba(45, 121, 88, 148));
+background-color: qlineargradient(spread:reflect, x1:1, y1:0.943, x2:1, y2:0.0683636, stop:0.393258 rgba(59, 110, 66, 153), stop:0.606742 rgba(34, 40, 93, 143));</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -51,7 +59,8 @@
           <enum>Qt::NoContextMenu</enum>
          </property>
          <property name="styleSheet">
-          <string notr="true">border-color: rgb(0, 0, 0);</string>
+          <string notr="true">border-color: rgb(0, 0, 0);
+background-color: qlineargradient(spread:reflect, x1:1, y1:0.943, x2:0.051, y2:0.0797272, stop:0.393258 rgba(98, 34, 34, 168), stop:0.606742 rgba(0, 0, 3, 168));</string>
          </property>
          <property name="text">
           <string>TextLabel</string>
@@ -158,6 +167,8 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="imagen.qrc"/>
+ </resources>
  <connections/>
 </ui>

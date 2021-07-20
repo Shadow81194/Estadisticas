@@ -21,6 +21,10 @@ private slots:
     void on_inNota2_valueChanged(int arg1);
     void on_inNota3_valueChanged(int arg1);
     void on_inNota34_valueChanged(int arg1);
+    void on_actionGuardadr_triggered();
+
+    void on_actionSalir_triggered();
+
 private:
     Ui::Principal *ui;
     //Declarar el objeto sobre el cual se va a dibujar

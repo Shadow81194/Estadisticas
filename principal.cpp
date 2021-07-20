@@ -93,3 +93,22 @@ void Principal::on_inNota34_valueChanged(int arg1)
 {
 
 }
+
+void Principal::on_actionGuardadr_triggered()
+{
+    //Crear un objeto Qdir a partir del direcion del usario
+    QDir directorio = QDir::home();
+    //Agregrar al path absoluto del objeto, un nombre por defeto del archivo
+    QString pathArchivo = directorio.absolutePath() + "/sin_nombre.jpg";
+    //Abrir un cuadro de dialogo para selecionar el nombre y ubicacion del archivo y guardar.
+    QString fileName = QFileDialog::getSaveFileName(this, "* Un nombre para la Ventana *",
+                                                    pathArchivo,
+                                                    "Archivo imagen (*.jpg)");
+    lienzo.save(fileName);
+    ui->statusbar->showMessage("Archivo guarda en" + fileName,3000);
+}
+
+void Principal::on_actionSalir_triggered()
+{
+    this->close();
+}

@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>664</width>
+    <width>676</width>
     <height>579</height>
    </rect>
   </property>
@@ -160,12 +160,55 @@ background-color: qlineargradient(spread:reflect, x1:1, y1:0.943, x2:0.051, y2:0
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>664</width>
+     <width>676</width>
      <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionGuardadr"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <addaction name="menuArchivo"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionGuardadr">
+   <property name="icon">
+    <iconset resource="imagen.qrc">
+     <normaloff>:/new/prefix1/imagen Estradistia/salvar.png</normaloff>:/new/prefix1/imagen Estradistia/salvar.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Guardadr</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="icon">
+    <iconset resource="imagen.qrc">
+     <normaloff>:/new/prefix1/imagen Estradistia/cerrar-sesion.png</normaloff>:/new/prefix1/imagen Estradistia/cerrar-sesion.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Salir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
  </widget>
  <resources>
   <include location="imagen.qrc"/>
